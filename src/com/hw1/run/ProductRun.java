@@ -6,8 +6,8 @@ public class ProductRun {
 
 	public static void main(String[] args) {
 		
-		ProductController PC = new ProductController();
-		PC.mainMenu();
+		ProductController control = new ProductController();
+		control.mainMenu();
 		
 	}
 }
